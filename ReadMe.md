@@ -1,1 +1,1 @@
-Repository for custom CSS and responsive page layouts.
+Repository for custom CSS file and responsive page layouts.
