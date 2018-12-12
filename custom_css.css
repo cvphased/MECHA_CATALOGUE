@@ -1,0 +1,114 @@
+/*==============================================================================*/
+/* CORE: GLOBAL ELEMENTS                                                        */
+/*==============================================================================*/
+/* Front Page Panel Body Text */
+.wf-active
+.lodestar-intro
+.entry-content {
+	font-size: 14px !important;
+}
+
+/* Front Page Blog Feed Body Text */
+.wf-active body, 
+.wf-active button, 
+.wf-active input, 
+.wf-active select, 
+.wf-active textarea {
+	font-size: 13px !important;
+}
+
+/* Social Icons Widget Text Alignment */
+.jetpack_widget_social_icons ul {
+	text-align: center;
+}
+
+/* Image Links */
+.entry-content a img,
+.widget a img {
+	background: none;
+	box-shadow: none;
+}
+
+/* Blockquotes */
+blockquote {
+	margin: 0;
+}
+
+/*==============================================================================*/
+/* CORE: JETPACK CAROUSEL                                                       */
+/*==============================================================================*/
+/* Lightbox Tltle Font */
+div.jp-carousel-titleanddesc-title {
+	font-family: proxima-nova-1, proxima-nova-2, sans-serif !important;
+	font-size: 20px !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+}
+
+/*==============================================================================*/
+/* CATALOGUE: GRID LAYOUT                                                       */
+/*==============================================================================*/
+.catalogue ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.catalogue-boxes > * {
+	padding: .5rem;
+	background-color: #dbdbdb;
+}
+
+.catalogue-boxes {
+	margin-left: 0 !important;
+	display: grid;
+	grid-auto-rows: minmax(100px,auto);
+	grid-gap: .5rem;
+}
+
+.catalogue-boxes li {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+	display: flex;
+	align-items: flex-end;
+}
+
+.catalogue-boxes h4,
+.catalogue-boxes p {
+	margin: 0;
+	padding: 0;
+}
+
+.catalogue-header {
+	display: grid;
+	margin-bottom: 10px;
+	grid-auto-rows: minmax(140px,auto);
+}
+
+.catalogue-header li {
+/* align-items: center; */
+	justify-content: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+	.catalogue-boxes {
+		margin-left: 0;
+		grid-auto-rows: minmax(140px,auto);
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 2px;
+	}
+	
+	.catalogue-boxes h4, .catalogue-boxes p {
+		margin: 0;
+		padding: 0 !important;
+	}
+	
+	.catalogue-header {
+		margin-bottom: 10px;
+		grid-auto-rows: minmax(140px,auto);
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 2px;
+	}
+}
