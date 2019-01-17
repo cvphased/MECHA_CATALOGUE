@@ -1,8 +1,8 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2019.01.07                                            */
-/* Last GitHub Check-in : 2019.01.10                                            */
+/* Last Revision        : 2019.01.12                                            */
+/* Last GitHub Check-in : 2019.01.17                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
@@ -40,8 +40,18 @@ blockquote {
 	margin: 0;
 }
 
+blockquote.contact-form-submission {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* Category Descriptions */
+div.taxonomy-description {
+	font-style: italic;
+}
+
 /*==============================================================================*/
-/* CORE: JETPACK     															*/
+/* CORE: JETPACK
 /*==============================================================================*/
 /* Lightbox Tltle Font */
 div.jp-carousel-titleanddesc-title {
@@ -69,7 +79,6 @@ div.jp-carousel-titleanddesc-desc {
 
 .catalogue-boxes > * {
 	padding: .5rem;
-/* background-color: #dbdbdb; */
 	background-color: #1c1c1c;
 }
 
