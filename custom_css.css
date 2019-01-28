@@ -1,8 +1,8 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2019.01.12                                            */
-/* Last GitHub Check-in : 2019.01.17                                            */
+/* Last Revision        : 2019.01.28                                            */
+/* Last GitHub Check-in : 2019.01.10                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
@@ -48,6 +48,11 @@ blockquote.contact-form-submission {
 /* Category Descriptions */
 div.taxonomy-description {
 	font-style: italic;
+}
+
+/* Twitter Embed */
+twitter-widget.twitter-tweet {
+	margin-bottom: 19.5px !important;
 }
 
 /*==============================================================================*/
