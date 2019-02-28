@@ -1,8 +1,8 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2019.01.28                                            */
-/* Last GitHub Check-in : 2019.02.01                                            */
+/* Last Revision        : 2019.02.22                                            */
+/* Last GitHub Check-in : 2019.02.28                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
@@ -85,6 +85,13 @@ twitter-widget.twitter-tweet {
 
 ::-webkit-scrollbar {
 	width: 10px;
+}
+
+/* Core Menu Alignment */
+@media screen and (min-width: 60em) {
+	.main-navigation ul.nav-menu {
+		text-align: center;
+	}
 }
 
 /*==============================================================================*/
