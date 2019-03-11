@@ -1,8 +1,8 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2019.02.22                                            */
-/* Last GitHub Check-in : 2019.02.28                                            */
+/* Last Revision        : 2019.03.10                                            */
+/* Last GitHub Check-in : 2019.03.11                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
@@ -53,38 +53,6 @@ div.taxonomy-description {
 /* Twitter Embed */
 twitter-widget.twitter-tweet {
 	margin-bottom: 19.5px !important;
-}
-
-/* Scrollbar Colors */
-::-webkit-scrollbar-button {
-	display: none;
-	height: 13px;
-	border-radius: 0;
-	background-color: #aaa;
-}
-
-::-webkit-scrollbar-button:hover {
-	background-color: #aaa;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: #788cce;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background-color: #788cce;
-}
-
-::-webkit-scrollbar-track {
-	background-color: #1c1c1c;
-}
-
-::-webkit-scrollbar-track:hover {
-	background-color: #1c1c1c;
-}
-
-::-webkit-scrollbar {
-	width: 10px;
 }
 
 /* Core Menu Alignment */
