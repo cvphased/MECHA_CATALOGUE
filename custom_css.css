@@ -62,7 +62,7 @@ twitter-widget.twitter-tweet {
 	}
 }
 
-/* Scrollbars */
+/* Scrollbars (only for Webkit browsers) */
 ::-webkit-scrollbar {
 	width: 10px;
 }
