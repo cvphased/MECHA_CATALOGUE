@@ -1,7 +1,7 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2019.03.15                                            */
+/* Last Revision        : 2020.04.21                                            */
 /* Last GitHub Check-in : 2019.03.15                                            */
 /*==============================================================================*/
 /*==============================================================================*/
@@ -45,6 +45,13 @@ blockquote.contact-form-submission {
 	padding-bottom: 0;
 }
 
+/* Multi-Column Unordered Lists */
+ul.twocols {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
 /* Category Descriptions */
 div.taxonomy-description {
 	font-style: italic;
@@ -62,13 +69,24 @@ twitter-widget.twitter-tweet {
 	}
 }
 
-/* Scrollbars (only for Webkit browsers) */
+/* Scrollbars */
 ::-webkit-scrollbar {
 	width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background-color: #000;
+}
+
+/* Related Posts */
+a.jp-relatedposts-post-a {
+	letter-spacing: 0;
+}
+
+/* 'Display Posts' Shortcode */
+.display-posts-listing .alignleft {
+	float: right;
+	margin: 0 0 5px 5px;
 }
 
 /*==============================================================================*/
@@ -87,6 +105,12 @@ div.jp-carousel-titleanddesc-title {
 div.jp-carousel-titleanddesc-desc {
 	font-family: "proxima-nova-1", "proxima-nova-2", sans-serif !important;
 	font-size: 13px !important;
+}
+
+/* Slideshow Box Removal */
+.slideshow-window {
+	border: 0 !important;
+	border-radius: 0 !important;
 }
 
 /*==============================================================================*/
@@ -118,7 +142,9 @@ div.jp-carousel-titleanddesc-desc {
 	align-items: flex-end;
 }
 
+.catalogue-boxes h3,
 .catalogue-boxes h4,
+.catalogue-boxes h5,
 .catalogue-boxes p {
 	margin: 0;
 	padding: 0;
@@ -131,7 +157,6 @@ div.jp-carousel-titleanddesc-desc {
 }
 
 .catalogue-header li {
-/* align-items: center; */
 	justify-content: center;
 	text-align: center;
 }
