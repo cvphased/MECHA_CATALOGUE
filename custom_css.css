@@ -1,7 +1,7 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2020.10.27                                            */
+/* Last Revision        : 2020.10.30                                            */
 /* Last GitHub Check-in : 2019.03.15                                            */
 /*==============================================================================*/
 /*==============================================================================*/
@@ -95,7 +95,7 @@ a.jp-relatedposts-post-a {
 /* Lightbox Tltle Font */
 div.jp-carousel-titleanddesc-title {
     /* font-family: proxima-nova-1, proxima-nova-2, sans-serif !important; (FONT NOT AVAILABLE) */
-	font-family: "Montserrat", sans-serif !important;
+	font-family: "Rubik", sans-serif !important;
 	font-size: 20px !important;
 	font-style: normal !important;
 	font-weight: 700 !important;
@@ -105,7 +105,7 @@ div.jp-carousel-titleanddesc-title {
 /* Lightbox Description Font */
 div.jp-carousel-titleanddesc-desc {
     /* font-family: "proxima-nova-1", "proxima-nova-2", sans-serif !important; (FONT NOT AVAILABLE) */
-	font-family: "Montserrat", sans-serif !important;
+	font-family: "Rubik", sans-serif !important;
 	font-size: 13px !important;
 }
 
