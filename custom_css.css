@@ -1,7 +1,7 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2020.10.30                                            */
+/* Last Revision        : 2020.11.11                                            */
 /* Last GitHub Check-in : 2019.03.15                                            */
 /*==============================================================================*/
 /*==============================================================================*/
@@ -94,7 +94,6 @@ a.jp-relatedposts-post-a {
 /*==============================================================================*/
 /* Lightbox Tltle Font */
 div.jp-carousel-titleanddesc-title {
-    /* font-family: proxima-nova-1, proxima-nova-2, sans-serif !important; (FONT NOT AVAILABLE) */
 	font-family: "Rubik", sans-serif !important;
 	font-size: 20px !important;
 	font-style: normal !important;
@@ -104,7 +103,6 @@ div.jp-carousel-titleanddesc-title {
 
 /* Lightbox Description Font */
 div.jp-carousel-titleanddesc-desc {
-    /* font-family: "proxima-nova-1", "proxima-nova-2", sans-serif !important; (FONT NOT AVAILABLE) */
 	font-family: "Rubik", sans-serif !important;
 	font-size: 13px !important;
 }
@@ -113,6 +111,25 @@ div.jp-carousel-titleanddesc-desc {
 .slideshow-window {
 	border: 0 !important;
 	border-radius: 0 !important;
+}
+
+/*==============================================================================*/
+/* CORE: BLOCKS
+/*==============================================================================*/
+/* Post Carousel Block */
+.lodestar-front-page
+article:not(.has-post-thumbnail):not(.lodestar-intro):not(.jetpack-portfolio):not(.jetpack-testimonial) {
+	border-top: 0 !important;
+}
+
+.wp-block-newspack-blocks-carousel .swiper-pagination-bullet {
+	background: #DBDBDB !important;
+}
+
+/* Gallery Block */
+li.blocks-gallery-item {
+	margin-right: 2px !important;
+	margin-bottom: 2px !important;
 }
 
 /*==============================================================================*/
