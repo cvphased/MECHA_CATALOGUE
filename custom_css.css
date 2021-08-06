@@ -1,7 +1,7 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2020.11.11                                            */
+/* Last Revision        : 2021.08.06                                            */
 /* Last GitHub Check-in : 2019.03.15                                            */
 /*==============================================================================*/
 /*==============================================================================*/
@@ -75,7 +75,7 @@ twitter-widget.twitter-tweet {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #000;
+	background-color: #DBDBDB;
 }
 
 /* Related Posts */
@@ -92,7 +92,7 @@ a.jp-relatedposts-post-a {
 /*==============================================================================*/
 /* CORE: JETPACK
 /*==============================================================================*/
-/* Lightbox Tltle Font */
+/* OLD Lightbox Title & Description Font (FOR DELETION)*/
 div.jp-carousel-titleanddesc-title {
 	font-family: "Rubik", sans-serif !important;
 	font-size: 20px !important;
@@ -101,8 +101,25 @@ div.jp-carousel-titleanddesc-title {
 	text-transform: uppercase !important;
 }
 
-/* Lightbox Description Font */
 div.jp-carousel-titleanddesc-desc {
+	font-family: "Rubik", sans-serif !important;
+	font-size: 13px !important;
+}
+
+/* NEW Lightbox Title & Description Font */
+div.jp-carousel-photo-title {
+	font-size: 20px !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
+}
+
+div.jp-carousel-photo-description {
+	font-family: "Rubik", sans-serif !important;
+	font-size: 13px !important;
+}
+
+span.jp-carousel-download-text {
 	font-family: "Rubik", sans-serif !important;
 	font-size: 13px !important;
 }
@@ -128,8 +145,12 @@ article:not(.has-post-thumbnail):not(.lodestar-intro):not(.jetpack-portfolio):no
 
 /* Gallery Block */
 li.blocks-gallery-item {
-	margin-right: 2px !important;
-	margin-bottom: 2px !important;
+	margin: 2px !important;
+}
+
+/* Image Captions */
+figcaption {
+	font-size: 90% !important;
 }
 
 /*==============================================================================*/
@@ -156,7 +177,7 @@ li.blocks-gallery-item {
 .catalogue-boxes li {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: right center;
 	display: flex;
 	align-items: flex-end;
 }
@@ -185,7 +206,11 @@ li.blocks-gallery-item {
 		margin-left: 0;
 		grid-auto-rows: minmax(140px,auto);
 		grid-template-columns: repeat(2,1fr);
-		grid-gap: 2px;
+		grid-gap: 4px;
+	}
+	
+	.catalogue-boxes li {
+		background-position: right top;
 	}
 	
 	.catalogue-boxes h4, .catalogue-boxes p {
@@ -197,6 +222,6 @@ li.blocks-gallery-item {
 		margin-bottom: 10px;
 		grid-auto-rows: minmax(140px,auto);
 		grid-template-columns: repeat(1,1fr);
-		grid-gap: 2px;
+		grid-gap: 4px;
 	}
 }
