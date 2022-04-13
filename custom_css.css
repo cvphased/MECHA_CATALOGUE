@@ -1,8 +1,8 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2021.08.06                                            */
-/* Last GitHub Check-in : 2021.08.06                                            */
+/* Last Revision        : 2022.04.13                                            */
+/* Last GitHub Check-in : 2022.04.13                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
@@ -141,11 +141,6 @@ article:not(.has-post-thumbnail):not(.lodestar-intro):not(.jetpack-portfolio):no
 
 .wp-block-newspack-blocks-carousel .swiper-pagination-bullet {
 	background: #DBDBDB !important;
-}
-
-/* Gallery Block */
-li.blocks-gallery-item {
-	margin: 2px !important;
 }
 
 /* Image Captions */
