@@ -1,14 +1,14 @@
 /*==============================================================================*/
 /* cvphaesed / MECHA CATALOGUE                                                  */
 /* Asset Type           : Custom Stylesheet                                     */
-/* Last Revision        : 2022.04.13                                            */
+/* Last Revision        : 2022.06.27                                            */
 /* Last GitHub Check-in : 2022.04.13                                            */
 /*==============================================================================*/
 /*==============================================================================*/
 /* CORE: GLOBAL ELEMENTS                                                        */
 /*==============================================================================*/
 /* Front Page Panel Body Text */
-.wf-active
+.wf-activea
 .lodestar-intro
 .entry-content {
 	font-size: 14px !important;
@@ -87,6 +87,11 @@ a.jp-relatedposts-post-a {
 .display-posts-listing .alignleft {
 	float: right;
 	margin: 0 0 5px 5px;
+}
+
+/* Image Margins (Posts) (POSSIBLY TEMPORARY, REMOVE WHEN FIXED) */
+.post figure {
+	margin-bottom: 1.5em;
 }
 
 /*==============================================================================*/
